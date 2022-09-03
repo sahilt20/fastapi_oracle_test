@@ -1,7 +1,9 @@
+from cgitb import handler
 from typing import List
 import secrets
 import requests
 import json
+from mangum import Mangum
 
 from fastapi import Depends, FastAPI, HTTPException, Response, status, Path
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
@@ -296,3 +298,7 @@ def get_employees_by_department(
     add_country_names(res)
 
     return res
+
+
+handler = Mangum(app)
+print(handler())

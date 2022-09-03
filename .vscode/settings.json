@@ -1,0 +1,15 @@
+{
+    "python.testing.pytestArgs": [
+        "test"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+     "python.pythonPath": "C:\\Users\\sahil\\.virtualenvs\\fastapi_oracle_test-6hjc7Y70\\Scripts\\python.exe",
+     "python.analysis.extraPaths": [
+ 
+        "C:\\Users\\sahil\\.virtualenvs\\fastapi_oracle_test-6hjc7Y70\\Lib\\site-packages"
+
+      ]
+   
+}
